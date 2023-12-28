@@ -225,9 +225,8 @@
 		<div class="row align-items-center h-100">
 			<div class="col-12">
 				<div class="cta-content text-center">
-					<h2 class="wow fadeInUp" data-wow-delay="300ms">Are you looking for a place to rent?</h2>
-					<h6 class="wow fadeInUp" data-wow-delay="400ms">Suspendisse dictum enim sit amet libero
-						malesuada feugiat.</h6>
+					<h2 class="wow fadeInUp" data-wow-delay="300ms">Are you looking for a place to live?</h2>
+					<h6 class="wow fadeInUp" data-wow-delay="400ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sed illum explicabo fugit eaque eveniet quisquam totam non nobis, maxime iste. Incidunt aut consectetur, illum tempore reiciendis at assumenda asperiores.</h6>
 					<a href="#" class="btn south-btn mt-50 wow fadeInUp" data-wow-delay="500ms">Search</a>
 				</div>
 			</div>
