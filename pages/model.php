@@ -16,11 +16,8 @@
                 <!-- Single Blog Area -->
                 <div class="single-blog-area mb-100">
                     <!-- Post Thumbnail -->
-                    <div class="blog-post-thumbnail">
-                        <video class="col-md-12 myVideo" height="500" controls autoplay>
-                            <source src="<?php bloginfo('template_directory'); ?>/assets/video/Sage.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                    <div class="blog-post-thumbnail1">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/sage-img/1.jpg" alt="Original Image" class="hover-image1">
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">
@@ -33,18 +30,15 @@
                         <p>Big in comfort for a nuclear family with staff. Designed to create great memories together. <br><br>
                             Configurable up to three storeys with seven bedrooms, Sage is a sizeable house with multifunctional spaces. Each child can have their own space to grow into, while you have room to store toys, books, gear, essentials. Step into Sage, your wonderful home.</p>
                         <!-- Read More btn -->
-                        <a href="#" class="btn south-btn">More</a>
+                        <a href="<?php echo get_permalink(get_page_by_path('sage')); ?>" class="btn south-btn">More</a>
                     </div>
                 </div>
 
                 <!-- Single Blog Area -->
                 <div class="single-blog-area mb-100">
                     <!-- Post Thumbnail -->
-                    <div class="blog-post-thumbnail">
-                        <video class="col-md-12 myVideo" height="500" controls autoplay>
-                            <source src="<?php bloginfo('template_directory'); ?>/assets/video/Ivy.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                    <div class="blog-post-thumbnail2">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/ivy-img/1.jpg" alt="Original Image" class="hover-image2">
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">
@@ -57,18 +51,15 @@
                         <p>A balance of space and style. A serious upgrade in comfort. A bold step into big heights. <br><br>
                             Ivy House can be maximized to three storeys, allowing you to extend the number of bedrooms to seven. Cozy with great flexibility, Ivy offers the freedom to reimagine spaces and turn them into a magnificent part of your thriving life. Make Ivy your own.</p>
                         <!-- Read More btn -->
-                        <a href="#" class="btn south-btn">More</a>
+                        <a href="#" class="btn south-btn examplebtn">More</a>
                     </div>
                 </div>
 
                 <!-- Single Blog Area -->
                 <div class="single-blog-area mb-100">
                     <!-- Post Thumbnail -->
-                    <div class="blog-post-thumbnail">
-                        <video class="col-md-12 myVideo" height="500" controls autoplay>
-                            <source src="<?php bloginfo('template_directory'); ?>/assets/video/Stella.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                    <div class="blog-post-thumbnail3">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/stella-img/1.jpg" alt="Original Image" class="hover-image3">
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">
@@ -88,11 +79,8 @@
                 <!-- Single Blog Area -->
                 <div class="single-blog-area mb-100">
                     <!-- Post Thumbnail -->
-                    <div class="blog-post-thumbnail">
-                        <video class="col-md-12 myVideo" height="500" controls autoplay>
-                            <source src="<?php bloginfo('template_directory'); ?>/assets/video/Harper.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                    <div class="blog-post-thumbnail4">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/harper-img/1.jpg" alt="Original Image" class="hover-image4">
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">
@@ -114,7 +102,7 @@
     </div>
 </section>
 
-<script>
+<!-- <script>
     document.addEventListener("DOMContentLoaded", function() {
         var videos = document.querySelectorAll('.myVideo');
 
@@ -134,4 +122,4 @@
             observer.observe(video);
         });
     });
-</script>
+</script> -->

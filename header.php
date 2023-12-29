@@ -67,8 +67,8 @@
 							<ul>
 								<li><a href="<?php echo home_url(); ?>">Home</a></li>
 								<li><a href="<?php echo get_permalink(get_page_by_path('model')); ?>">Models</a></li>
-								<li><a href="about-us.html">About Us</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="<?php echo get_permalink(get_page_by_path('about')); ?>">About Us</a></li>
+								<li><a href="<?php echo get_permalink(get_page_by_path('contact')); ?>">Contact</a></li>
 							</ul>
 
 							<!-- Search Form -->

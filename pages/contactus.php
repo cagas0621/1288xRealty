@@ -1,129 +1,78 @@
-<section class="hero-wrap hero-wrap-2" style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/bg_3.jpg');"
-        data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text align-items-end justify-content-center">
-                <div class="col-md-9 ftco-animate mb-5 text-center">
-                    <h1 class="mb-3 bread">Contact us</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="<?php echo home_url();?>">Home <i
-                                    class="fa fa-chevron-right"></i></a></span> <span>Contact us <i
-                                class="fa fa-chevron-right"></i></span></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="ftco-section bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12">
-                    <div class="wrapper px-md-4">
-                        <div class="row mb-5">
-                            <div class="col-md-3">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-map-marker"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Address:</span> Manila</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-phone"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-paper-plane"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@example.com</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-globe"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Website</span> <a href="#">example.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col-md-7">
-                                <div class="contact-wrap w-100 p-md-5 p-4">
-                                    <h3 class="mb-4" style="color: #0D3166; font-weight: 700;">Contact Us</h3>
-                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="label" for="name">Name <span
-                                                            class="text-danger">*</span></label>
-                                                    <input type="text" class="form-control" name="first" id="first"
-                                                        placeholder="First">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <br>
-                                                    <input type="text" class="form-control" name="last" id="last"
-                                                        placeholder="Last">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label class="label" for="subject">Email <span
-                                                            class="text-danger">*</span></label>
-                                                    <input type="email" class="form-control" name="email"
-                                                        id="email">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label class="label" for="#">Mobile Number <span
-                                                            class="text-danger">*</span></label>
-                                                    <input type="text" class="form-control" name="phone"
-                                                        id="phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label class="label" for="#">Comment or Message <span
-                                                            class="text-danger">*</span></label>
-                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="submit" value="Send Message" class="btn btn-primary">
-                                                    <div class="submitting"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-md-5 d-flex align-items-stretch">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61776.70145450452!2d120.93836000191466!3d14.596577750086466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca03571ec38b%3A0x69d1d5751069c11f!2sManila%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1698043137361!5m2!1sen!2sph"
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
+ <!-- ##### Breadcumb Area Start ##### -->
+ <section class="breadcumb-area bg-img" style="background-image: url(<?php bloginfo('template_directory'); ?>/assets/img/bg-img/clubhouse.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h3 class="breadcumb-title">Contact</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <section class="south-contact-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contact-heading">
+                        <h6>Contact info</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="content-sidebar">
+                        <!-- Office Hours -->
+                        <div class="weekly-office-hours">
+                            <ul>
+                                <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span> <span>09 AM - 19 PM</span></li>
+                                <li class="d-flex align-items-center justify-content-between"><span>Saturday</span> <span>09 AM - 14 PM</span></li>
+                                <li class="d-flex align-items-center justify-content-between"><span>Sunday</span> <span>Closed</span></li>
+                            </ul>
+                        </div>
+                        <!-- Address -->
+                        <div class="address mt-30">
+                            <h6><i class="fa fa-phone" aria-hidden="true"></i> +45 677 8993000 223</h6>
+                            <h6><i class="fa fa-envelope" aria-hidden="true"></i> office@template.com</h6>
+                            <h6><i class="fa fa-map-marker" aria-hidden="true"></i> Calamba, Philippines</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Area -->
+                <div class="col-12 col-lg-8">
+                    <div class="contact-form">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="text" id="contact-name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" name="number" id="contact-number" placeholder="Your Phone">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="contact-email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn south-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps -->
+    <div class="map-area mb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1933.679834295119!2d121.1083139983948!3d14.232228900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd63e86ee61c75%3A0x119b2b5fdff893d7!2sVie%20at%20Southern%20Plains!5e0!3m2!1sen!2sph!4v1703799485975!5m2!1sen!2sph" class="col-md-12" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>

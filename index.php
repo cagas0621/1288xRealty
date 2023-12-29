@@ -217,9 +217,6 @@
 		</div>
 	</div>
 </section>
-<!-- ##### Featured Properties Area End ##### -->
-
-<!-- ##### Call To Action Area Start ##### -->
 <section class="call-to-action-area bg-fixed bg-overlay-black" style="background-image: url(img/bg-img/cta.jpg)">
 	<div class="container h-100">
 		<div class="row align-items-center h-100">
@@ -233,6 +230,5 @@
 		</div>
 	</div>
 </section>
-<!-- ##### Call To Action Area End ##### -->
 
 <?php get_footer(); ?>
