@@ -30,7 +30,7 @@
                         <p>Big in comfort for a nuclear family with staff. Designed to create great memories together. <br><br>
                             Configurable up to three storeys with seven bedrooms, Sage is a sizeable house with multifunctional spaces. Each child can have their own space to grow into, while you have room to store toys, books, gear, essentials. Step into Sage, your wonderful home.</p>
                         <!-- Read More btn -->
-                        <a href="<?php echo get_permalink(get_page_by_path('sage')); ?>" class="btn south-btn">More</a>
+                        <a href="<?php echo get_permalink(get_page_by_path('sage-house')); ?>" class="btn south-btn">More</a>
                     </div>
                 </div>
 

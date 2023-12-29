@@ -10,7 +10,7 @@ if ($url_name == 'model') {
     require get_template_directory() . '/pages/about.php';
 } else if ($url_name == 'contact'){
     require get_template_directory() . '/pages/contactus.php';
-} else if ($url_name == 'sage'){
+} else if ($url_name == 'sage-house'){
     require get_template_directory() . '/pages/sage.php';
 } else if ($url_name == 'lead_generation'){
     require get_template_directory() . '/pages/leadgeneration.php';
