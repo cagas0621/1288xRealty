@@ -1,4 +1,3 @@
-<!-- ##### Breadcumb Area Start ##### -->
 <section class="breadcumb-area bg-img" style="background-image: url(<?php bloginfo('template_directory'); ?>/assets/img/bg-img/clubhouse.jpg);">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
@@ -10,11 +9,6 @@
         </div>
     </div>
 </section>
-<!-- ##### Breadcumb Area End ##### -->
-
-<!-- ##### Advance Search Area End ##### -->
-
-<!-- ##### About Content Wrapper Start ##### -->
 <section class="about-content-wrapper section-padding-100">
     <div class="container">
         <div class="row">

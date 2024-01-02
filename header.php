@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Home</title>
+	<title>1288xRealty</title>
 	<!-- <link rel="icon" href="img/core-img/favicon.ico"> -->
 
 	<?php wp_head(); ?>
@@ -16,9 +16,9 @@
 
 <body>
 	<!-- Preloader -->
-	<!-- <div id="preloader">
+	<div id="preloader">
 		<div class="south-load"></div>
-	</div> -->
+	</div>
 
 	<!-- ##### Header Area Start ##### -->
 	<header class="header-area">
@@ -31,7 +31,7 @@
 				</div>
 				<div class="phone-number d-flex">
 					<div class="icon">
-						<img src="img/icons/phone-call.png" alt="">
+						<i class="fa fa-phone"></i>
 					</div>
 					<div class="number">
 						<a href="tel:+45 677 8993000 223">+45 677 8993000 223</a>
@@ -68,19 +68,8 @@
 								<li><a href="<?php echo home_url(); ?>">Home</a></li>
 								<li><a href="<?php echo get_permalink(get_page_by_path('model')); ?>">Models</a></li>
 								<li><a href="<?php echo get_permalink(get_page_by_path('about')); ?>">About Us</a></li>
-								<li><a href="<?php echo get_permalink(get_page_by_path('contact')); ?>">Contact</a></li>
+								<li><a href="<?php echo get_permalink(get_page_by_path('contact')); ?>">Contact Us</a></li>
 							</ul>
-
-							<!-- Search Form -->
-							<div class="south-search-form">
-								<form action="#" method="post">
-									<input type="search" name="search" id="search" placeholder="Search Anything ...">
-									<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-								</form>
-							</div>
-
-							<!-- Search Button -->
-							<a href="#" class="searchbtn"><i class="fa" aria-hidden="true"></i></a>
 						</div>
 						<!-- Nav End -->
 					</div>
